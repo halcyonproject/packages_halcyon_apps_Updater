@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2026 The Halcyon Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="235dp"
+    android:height="48dp"
+    android:viewportWidth="235"
+    android:viewportHeight="48"
+    android:tint="?android:attr/textColorPrimary">
+    <!-- Scalloped circle placeholder -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M18.75,2.98C21.37,0.22 25.73,0.22 28.34,2.98C29.77,4.48 31.81,5.23 33.86,5.01C37.62,4.59 40.96,7.43 41.21,11.24C41.34,13.32 42.43,15.22 44.14,16.38C47.29,18.5 48.04,22.85 45.81,25.93C44.59,27.61 44.21,29.77 44.79,31.78C45.85,35.45 43.67,39.27 39.99,40.17C37.99,40.67 36.33,42.08 35.5,43.99C33.97,47.49 29.87,49 26.48,47.31C24.63,46.38 22.46,46.38 20.61,47.31C17.22,49 13.12,47.49 11.6,43.99C10.77,42.08 9.11,40.67 7.1,40.17C3.43,39.27 1.25,35.45 2.31,31.78C2.88,29.77 2.51,27.61 1.29,25.93C-0.95,22.85 -0.19,18.5 2.95,16.38C4.67,15.22 5.75,13.32 5.89,11.24C6.13,7.43 9.48,4.59 13.23,5.01C15.29,5.23 17.32,4.48 18.75,2.98Z" />
+    <!-- Circle -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M85.13,23.55m-23.55,0a23.55,23.55 0,1 1,47.1 0a23.55,23.55 0,1 1,-47.1 0" />
+    <!-- Triangle -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M142.82,3.98C145.16,-0.12 150.99,-0.12 153.33,3.98L172.16,36.98C174.5,41.07 171.58,46.19 166.91,46.19H129.25C124.58,46.19 121.66,41.07 123.99,36.98L142.82,3.98Z" />
+    <!-- Rounded rectangle -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M197.47,0.91h27.09c5.52,0 10,4.48 10,10v27.09c0,5.52 -4.48,10 -10,10h-27.09c-5.52,0 -10,-4.48 -10,-10v-27.09c0,-5.52 4.48,-10 10,-10Z" />
+</vector>
+

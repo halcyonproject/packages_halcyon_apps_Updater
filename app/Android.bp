@@ -18,7 +18,7 @@ android_app {
 
     platform_apis: true,
     privileged: true,
-    privapp_allowlist: "org.lineageos.updater.xml",
+    privapp_allowlist: "org.hlcyn.updater.xml",
     certificate: "platform",
     system_ext_specific: true,
 
@@ -31,7 +31,7 @@ android_app {
     ],
 
     javacflags: [
-        "-Aroom.schemaLocation=packages/apps/Updater/schemas"
+        "-Aroom.schemaLocation=packages/halcyon/apps/Updater/schemas"
     ],
 
     kotlin_plugins: [
@@ -89,14 +89,14 @@ android_app {
     },
 
     required: [
-        "default-permissions_org.lineageos.updater"
+        "default-permissions_org.hlcyn.updater"
     ],
 }
 
 prebuilt_etc {
-    name: "default-permissions_org.lineageos.updater",
+    name: "default-permissions_org.hlcyn.updater",
     system_ext_specific: true,
     sub_dir: "default-permissions",
-    src: "default-permissions_org.lineageos.updater.xml",
+    src: "default-permissions_org.hlcyn.updater.xml",
     filename_from_src: true,
 }
